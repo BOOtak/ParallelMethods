@@ -1,4 +1,4 @@
 ParallelMethods
 ===============
 
-Parallel methods
+Parallel methods made using posix threads
