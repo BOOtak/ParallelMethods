@@ -7,7 +7,7 @@ int main(int argc, const char* argv[]) {
 	FILE *in;
 	in = fopen(argv[1], "a");
 	long int i;
-	for (i=0; i< 10000000; i++) {
-		fprintf(in, "%i ", rand()%1000000);
+	for (i=0; i< 1000; i++) {
+		fprintf(in, "%i.%i ", rand()%1000, rand()%1000);
 	}
 }
