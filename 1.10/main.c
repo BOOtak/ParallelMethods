@@ -21,7 +21,7 @@ struct thread_info {
 int int_min = -1, int_max = -1;
 int* ret_arr;
 
-int print_help() {
+void print_help() {
     printf("\E[1;11mUsage:\E[0;11m main -c COUNT--path FILE [--min][--max][-j count]\n \
         --min for minimum delimiter (0 by default)\n \
         --max for maximum delimiter (INT_MAX by default)\n \
